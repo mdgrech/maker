@@ -4,3 +4,5 @@
 2. Hook up debugger
 3. Validate package.json
 4. Create a private repo
+5. Create a README
+6. Create a license
