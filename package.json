@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "node ./dist/index.js"
+    "start": "node ./dist/index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.2.0",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
   }
 }
