@@ -12,8 +12,21 @@
     "prettier": "npx pretty-quick --staged"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Michael Grech",
+    "email": "mdgrech@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdgrech/maker/issues"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdgrech/maker"
+  },
+  "homepage": "https://github.com/mdgrech/maker",
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "husky": "^4.2.3",
