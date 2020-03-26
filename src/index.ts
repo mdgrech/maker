@@ -1,3 +1,4 @@
 import sum from "./sum";
 
-sum(2, 3);
+const results = sum(2, 3);
+console.log(results);

@@ -2,10 +2,11 @@
   "name": "maker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "build": "npx tsc",
-    "start": "node ./dist/index.js",
+    "start": "node ./dist/bundle.js",
+    "prestart": "npm run build",
+    "build": "npx webpack",
     "test": "jest",
     "tslint": "npx tslint --project tsconfig.json --config tslint.json",
     "prettier": "npx pretty-quick --staged"
@@ -20,9 +21,12 @@
     "prettier": "2.0.2",
     "pretty-quick": "^2.0.1",
     "ts-jest": "^25.2.1",
+    "ts-loader": "^6.2.2",
     "tslint": "^6.1.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   },
   "husky": {
     "hooks": {
